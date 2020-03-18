@@ -1,0 +1,21 @@
+.navbar {
+    animation: navbar-topo 2s forwards;
+}
+
+@keyframes navbar-abaixada {
+    from {
+        background-color: rgba(142, 15, 242, 1.0);
+    }
+    to {
+        background-color: rgba(142, 15, 242, 0.51);
+    }
+}
+
+@keyframes navbar-topo {
+    from {
+        background-color: rgba(142, 15, 242, 0.51);
+    }
+    to {
+        background-color: rgba(142, 15, 242, 1.0);
+    }
+}
