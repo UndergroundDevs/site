@@ -1,3 +1,8 @@
 header.masthead {
     background-image: url('../img/space.gif');
 }
+
+#slogan {
+    width: 100%;
+    float: left;
+}
