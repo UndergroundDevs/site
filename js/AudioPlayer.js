@@ -504,8 +504,6 @@
                             ;
                             e.length = n - 1
                         }
-                            e.length = n - 1
-                        }
                 }
             }
 
