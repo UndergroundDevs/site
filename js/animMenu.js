@@ -12,7 +12,6 @@ function c2() {
 function c() {
     navElement.style.animation = "navbar-abaixada 2s forwards";
     navSlogan.style.animation = "imagem-menor 2s forwards";
-    console.log("Hello ");
 }
 
 function c3() {

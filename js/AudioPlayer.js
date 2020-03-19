@@ -504,6 +504,8 @@
                             ;
                             e.length = n - 1
                         }
+                            e.length = n - 1
+                        }
                 }
             }
 
@@ -1380,6 +1382,7 @@
                 x.isXMLDoc = at.isXML,
                 x.contains = at.contains
         }(e);
+        
     var O = {};
 
     function F(e) {
