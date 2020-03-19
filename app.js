@@ -22,6 +22,9 @@ var app = express();
 app.get('/',function (req,res){
     res.sendFile(__dirname+'/static/index.html')
 });
+app.get('/about',function (req,res){
+    res.sendFile(__dirname+'/static/about/index.html')
+});
 
 app.get('/404',function (req,res){
     res.sendFile(__dirname+'/static/error/404.html')
