@@ -3,21 +3,29 @@ body {
     padding: 0px;
 }
 
+#imgPlayer {
+    width: 100%;
+    margin-top: -5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 #blackLayer {
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, .2);
-    position: absolute;
+    position: relative;
     z-index: 99;
 }
 
 #main {
-    width: 100%;
-    background-color: #fff;
+    width: 20rem;
+    height: 17rem;
+    background-color: rgb(80, 80, 80);
     border-radius: 15px;
-    position: absolute;
-    top: 60%;
-    left: 60%;
+    position: relative;
+    top: 5rem;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
 }
@@ -49,19 +57,19 @@ body {
     width: 50px;
     height: 50px;
     border: 0;
-    background-color: royalblue;
+    background-color: rgb(142, 15, 242);
     border-radius: 50%;
     outline: none;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 #play img {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 1.4rem;
     left: 50%;
     transform: translate(-50%, -50%);
 }
