@@ -1,0 +1,47 @@
+.navbar {
+    animation: navbar-topo 2s forwards;
+}
+
+#slogan {
+    animation: imagem-maior 2s forwards;
+}
+
+@keyframes navbar-abaixada {
+    from {
+        background-color: rgba(0, 0, 0, 0.51);
+        height: 6rem;
+    }
+    to {
+        background-color: rgba(142, 15, 242, 1.0);
+        height: 3rem;
+    }
+}
+
+@keyframes navbar-topo {
+    from {
+        background-color: rgba(142, 15, 242, 1.0);
+        height: 3rem;
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0.51);
+        height: 6rem;
+    }
+}
+
+@keyframes imagem-maior {
+    from {
+        height: 3rem;
+    }
+    to {
+        height: 5rem;
+    }
+}
+
+@keyframes imagem-menor {
+    from {
+        height: 5rem;
+    }
+    to {
+        height: 3rem;
+    }
+}

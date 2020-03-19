@@ -1,0 +1,33 @@
+:root {
+    --cor-1: rgba(54, 54, 54, 1);
+    --cor-2: rgba(217, 187, 249, 1);
+    --cor-3: rgba(153, 132, 212, 1);
+    --cor-4: rgba(126, 127, 154, 1);
+    --cor-5: rgba(175, 97, 203, 1);
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#um {
+    background-color: var(--cor-1);
+}
+
+#dois {
+    background-color: var(--cor-2);
+}
+
+#tres {
+    background-color: var(--cor-3);
+}
+
+#quatro {
+    background-color: var(--cor-4);
+}
+
+#cinco {
+    background-color: var(--cor-5);
+}
