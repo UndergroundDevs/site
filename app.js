@@ -1,4 +1,4 @@
-var http = require('http'),
+/*var http = require('http'),
     fs = require('fs')
 var port = process.env.PORT || 3000
 http.createServer(function(req, res) {
@@ -14,4 +14,15 @@ http.createServer(function(req, res) {
         }
         res.end()
     })
-}).listen(port)
+}).listen(port)*/
+
+var express = require('express');
+var app = express();
+
+app.get('/',function (req,res){
+    res.sendFile(__dirname+'/index.html')
+});
+
+app.listen(3000,function(){
+    console.log('Running done!')
+});
