@@ -20,14 +20,14 @@ var express = require('express');
 var app = express();
 
 app.get('/',function (req,res){
-    res.sendFile(__dirname+'/index.html')
+    res.sendFile(__dirname+'/static/index.html')
 });
 
-app.use('/img',express.static(__dirname + '/img'));
-app.use('/css',express.static(__dirname + '/css'));
-app.use('/bootstrap',express.static(__dirname + '/bootstrap'));
-app.use('/fonts',express.static(__dirname + '/fonts'));
-app.use('/js',express.static(__dirname + '/js'));
+app.use('/img',express.static(__dirname + '/static/img'));
+app.use('/css',express.static(__dirname + '/static/css'));
+app.use('/bootstrap',express.static(__dirname + '/static/bootstrap'));
+app.use('/fonts',express.static(__dirname + '/static/fonts'));
+app.use('/js',express.static(__dirname + '/static/js'));
 
 app.listen(process.env.PORT || 5000,function(){
     console.log('Running done!')
