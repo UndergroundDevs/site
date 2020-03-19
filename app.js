@@ -23,6 +23,12 @@ app.get('/',function (req,res){
     res.sendFile(__dirname+'/index.html')
 });
 
+app.use('/img',express.static(__dirname + '/img'));
+app.use('/css',express.static(__dirname + '/css'));
+app.use('/bootstrap',express.static(__dirname + '/bootstrap'));
+app.use('/fonts',express.static(__dirname + '/fonts'));
+app.use('/js',express.static(__dirname + '/js'));
+
 app.listen(3000,function(){
     console.log('Running done!')
 });
