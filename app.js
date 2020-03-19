@@ -29,6 +29,6 @@ app.use('/bootstrap',express.static(__dirname + '/bootstrap'));
 app.use('/fonts',express.static(__dirname + '/fonts'));
 app.use('/js',express.static(__dirname + '/js'));
 
-app.listen(3000,function(){
+app.listen(process.env.PORT || 5000,function(){
     console.log('Running done!')
 });
