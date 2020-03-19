@@ -4,14 +4,14 @@ body {
 }
 
 #imgPlayer {
-    width: 100%;
+    width: 10rem;
     margin-top: -5px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #blackLayer {
-    height: 100vh;
+    height: 10rem;
     width: 100%;
     background-color: rgba(0, 0, 0, .2);
     position: relative;
@@ -19,8 +19,8 @@ body {
 }
 
 #main {
-    width: 20rem;
-    height: 17rem;
+    width: 10rem;
+    height: 7rem;
     background-color: rgb(80, 80, 80);
     border-radius: 15px;
     position: relative;
@@ -31,7 +31,7 @@ body {
 }
 
 #image img {
-    height: 180px;
+    height: 10rem;
     width: 100%;
     margin-top: -5px;
     border-top-left-radius: 15px;
@@ -39,7 +39,7 @@ body {
 }
 
 #player {
-    padding: 25px;
+    padding: 15px;
     color: #333;
 }
 
