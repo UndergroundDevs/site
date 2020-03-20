@@ -22,7 +22,7 @@
     <title>Undergrounds</title>
 
     <link rel="stylesheet " href="/bootstrap/css/bootstrap.min.css">
-    <!--nuvem -->
+    <!--nuvem-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800 ">
     <!--nuvem-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic ">
@@ -30,6 +30,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet " href="/css/style.css" media="all">
+    <!--icone do site-->
+    <link rel="icon" href="img/icon.png">
 </head>
 
 <body id="page-top">
@@ -225,7 +227,7 @@
 
 
 
-                                        song.play(); // play the song
+                                        //song.play(); // play the song when the page loads
                                     }
 
                                     function playOrPauseSong() {
@@ -270,6 +272,7 @@
                                         $("#image img").attr("src", poster[currentSong]);
                                         $("#bg img").attr("src", poster[currentSong]);
                                     }
+                                    song.pause();
                                 </script>
                             </div>
                         </div>
