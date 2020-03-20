@@ -338,7 +338,6 @@ div.row {
 
 #team {
     width: 98%;
-    height: 20rem;
     top: 0px;
     bottom: 0px;
     margin-left: 1rem;
@@ -361,6 +360,11 @@ div.row {
     text-align: justify;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    height: auto;
+}
+#footer{
+    height: 1px;
+    width: 100%;
 }
 @media only screen and (max-device-width: 770px) {
     #team .profile {
