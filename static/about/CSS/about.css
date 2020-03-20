@@ -168,10 +168,21 @@ transition: all 250ms ease-in-out 0s;
 }
 
 img.rounded-circle{
-    height: 9rem;
+    width: 9rem;
 }
 
 div.row{
     text-align:center;
     justify-items: center;
+}
+/*/////////////////////////////*/
+div.col-md-2 h3 {
+    font-size: 1rem;
+}
+div.col-md-2 img{
+    
+}
+.row .text-center{
+    width: 100%;
+    float: right;
 }
