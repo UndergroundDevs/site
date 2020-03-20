@@ -201,8 +201,8 @@
                             <h5 class="widget-title">Rádio<span></span></h5>
                             <!--player de audio-->
                             <link rel="stylesheet" href="css/AudioPlayer.css" rel="stylesheet">
-                            <script src="js/AudioPlayer.js">
-                            </script>
+                            <!--<script src="js/AudioPlayer.js">
+                            </script>-->
                             <div id="main">
                                 <img id="imgPlayer" src="img/logo_16x9.jpg">
                                 <div id="player">
@@ -212,71 +212,31 @@
                             </button>
                                     </div>
                                 </div>
-                                <script>
-                                    var songs = ["http://stream.zeno.fm/0hx17x9nwtzuv"];
-                                    var poster = ["img/Poster.jpg"];
-
-
-                                    var fillBar = document.getElementById("fill");
-
-                                    var song = new Audio();
-                                    var currentSong = 0; // it point to the current song
-
-                                    window.onload = playSong; // it will call the function playSong when window is load
-
-                                    function playSong() {
-
-                                        song.src = songs[currentSong]; //set the source of 0th song 
-
-
-
-                                        //song.play(); // play the song when the page loads
-                                    }
-
-                                    function playOrPauseSong() {
-
-                                        if (song.paused) {
-                                            song.play();
-                                            $("#play img").attr("src", "img/Pause.png");
-                                        } else {
-                                            song.pause();
-                                            $("#play img").attr("src", "img/Play.png");
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="100" value="50" class="slider" id="volbar">
+                                    <script>
+                                        var audio = new Audio('http://stream.zeno.fm/0hx17x9nwtzuv'); // the above
+                                        audio.play();
+                                        
+                                        var slider = document.getElementById("volbar");
+                                        
+                                        audio.volume = (slider.value/100);
+                                        
+                                        slider.oninput = function() {
+                                            audio.volume = (this.value/100);
                                         }
-                                    }
-
-                                    song.addEventListener('timeupdate', function() {
-
-                                        var position = song.currentTime / song.duration;
-
-                                        fillBar.style.width = position * 100 + '%';
-                                    });
-
-
-                                    function next() {
-
-                                        currentSong++;
-                                        if (currentSong > 2) {
-                                            currentSong = 0;
+                                        function playOrPauseSong() {
+                                            
+                                            if (audio.paused) {
+                                                audio.play();
+                                                $("#play img").attr("src", "img/Pause.png");
+                                            } else {
+                                                audio.pause();
+                                                $("#play img").attr("src", "img/Play.png");
+                                            }
                                         }
-                                        playSong();
-                                        $("#play img").attr("src", "img/Pause.png");
-                                        $("#image img").attr("src", poster[currentSong]);
-                                        $("#bg img").attr("src", poster[currentSong]);
-                                    }
-
-                                    function pre() {
-
-                                        currentSong--;
-                                        if (currentSong < 0) {
-                                            currentSong = 2;
-                                        }
-                                        playSong();
-                                        $("#play img").attr("src", "img/Pause.png");
-                                        $("#image img").attr("src", poster[currentSong]);
-                                        $("#bg img").attr("src", poster[currentSong]);
-                                    }
-                                    song.pause();
-                                </script>
+                                    </script>
+                                </div>
                             </div>
                         </div>
 
