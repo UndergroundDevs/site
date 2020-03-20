@@ -337,7 +337,7 @@ div.row {
 /*/////////////////////////////*/
 
 #team {
-    width: 100%;
+    width: 98%;
     height: 20rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -351,6 +351,7 @@ div.row {
 
 #team p {
     color: rgb(177, 177, 177);
+    font-size: 1rem;
     text-align: justify;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
