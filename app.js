@@ -30,6 +30,10 @@ app.get('/404',function (req,res){
     res.sendFile(__dirname+'/static/error/404.html')
 });
 
+app.get('/about/about.css',function (req,res){
+    res.sendFile(__dirname+'/static/about/CSS/about.css')
+});
+
 app.use('/img',express.static(__dirname + '/static/img'));
 app.use('/css',express.static(__dirname + '/static/css'));
 app.use('/bootstrap',express.static(__dirname + '/static/bootstrap'));
