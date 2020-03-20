@@ -339,6 +339,8 @@ div.row {
 #team {
     width: 98%;
     height: 20rem;
+    top: 0px;
+    bottom: 0px;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -349,10 +351,28 @@ div.row {
     height: auto;
 }
 
+#team img{
+    width: 11rem;
+}
+
 #team p {
     color: rgb(177, 177, 177);
     font-size: 1rem;
     text-align: justify;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+}
+@media only screen and (max-device-width: 770px) {
+    #team .profile {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    #team {
+        width: 98%;
+        top: 0px;
+        bottom: 0px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
