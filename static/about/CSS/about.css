@@ -300,6 +300,9 @@ div.row {
     margin-right: 1.5rem;
     height: auto;
 }
+section{
+    width: 100%;
+}
 
 @media only screen and (max-device-width: 770px) {
     body{
@@ -330,8 +333,5 @@ div.row {
     #team p {
         margin-left: 1rem;
         margin-right: 1rem;
-    }
-    section{
-        width: 100%;
     }
 }
