@@ -301,6 +301,10 @@ div.row {
 }
 
 @media only screen and (max-device-width: 770px) {
+    body{
+        overflow-y: scroll;
+    }
+
     #team .profile {
         float: none;
         width: 100%;
