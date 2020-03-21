@@ -308,8 +308,6 @@ div.row {
 
     .team-section{
         background-image: url('/img/space_otimized.gif');
-        background-repeat: repeat-y;
-        background-size: 100%;
         float: inline-start;
     }
 

@@ -1,21 +1,3 @@
-/*var http = require('http'),
-    fs = require('fs')
-var port = process.env.PORT || 3000
-http.createServer(function(req, res) {
-    var url = './' + (req.url == '/' ? 'index.html' : req.url)
-    fs.readFile(url, function(err, html) {
-        if (err) {
-            var message404 = "There is no such page! <a href='/'>Back to home page</a>"
-            res.writeHead(404, {'Content-Type': 'text/html', 'Content-Length': message404.length})
-            res.write(message404)
-        } else {
-            res.writeHead(200, {'Content-Type': 'text/html', 'Content-Length': html.length})
-            res.write(html)
-        }
-        res.end()
-    })
-}).listen(port)*/
-
 var express = require('express');
 var app = express();
 
@@ -25,8 +7,23 @@ app.get('/',function (req,res){
 app.get('/about',function (req,res){
     res.sendFile(__dirname+'/static/about/index.html')
 });
+app.get('/about/allan-kardec',function (req,res){
+    res.sendFile(__dirname+'/static/about/allankardec.html')
+});
+app.get('/about/eric-binsfeld',function (req,res){
+    res.sendFile(__dirname+'/static/about/ericbinsfeld.html')
+});
+app.get('/about/kevson-filipe',function (req,res){
+    res.sendFile(__dirname+'/static/about/kevsonfilipe.html')
+});
+app.get('/about/pablo-miranda',function (req,res){
+    res.sendFile(__dirname+'/static/about/pablomiranda.html')
+});
+app.get('/about/wanghley-martins',function (req,res){
+    res.sendFile(__dirname+'/static/about/wanghleymartins.html')
+});
 
-app.get('/404',function (req,res){
+app.get('/error/404',function (req,res){
     res.sendFile(__dirname+'/static/error/404.html')
 });
 
