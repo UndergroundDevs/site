@@ -269,7 +269,7 @@ div.row {
 /*/////////////////////////////*/
 
 #team {
-    width: 98%;
+    width: 97%;
     top: 8rem;
     bottom: 0px;
     margin-left: 1rem;
@@ -285,10 +285,19 @@ div.row {
     border-top: #000000 solid 1rem;
     border-bottom: #000000 solid 1rem;
     margin-bottom: 3rem;
+    text-decoration: none;
+}
+
+#team a{
+    text-decoration: none;
 }
 
 #team img{
     width: 11rem;
+}
+#team img:hover{
+    width: 11rem;
+    transform: scale(1.2);
 }
 
 #team p {
@@ -299,9 +308,27 @@ div.row {
     margin-right: 1.5rem;
     height: auto;
 }
+
+#team h3{
+    color: rgb(94, 68, 165);
+    font-size: 1.7rem;
+}
+#team h3:hover{
+    color: rgb(39, 28, 68);
+    font-size: 1.7rem;
+}
+h2.founders-title{
+    color: rgb(94, 68, 165);
+    font-weight: bolder;
+    font-family: 'Brendohand';
+    font-size: 3rem;
+}
+
+
 section{
     width: 100%;
 }
+
 
 @media only screen and (max-device-width: 770px) {
     body{
@@ -332,5 +359,18 @@ section{
     #team p {
         margin-left: 1rem;
         margin-right: 1rem;
+        font-size: 0.8rem;
     }
+    #team img{
+        width: 8rem;
+    }
+    #team img:hover{
+        width: 8rem;
+    }
+
 }
+
+/*============================
+         Social Medias
+  ============================*/
+  
