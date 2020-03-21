@@ -19,7 +19,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <title>Undergrounds</title>
+    <title>About</title>
 
     <link rel="stylesheet " href="/bootstrap/css/bootstrap.min.css">
     <!--nuvem-->
@@ -70,8 +70,8 @@
             </div>
 
             <div class="profile">
-                <img src="../img/img_avatar/kevson.png" class="rounded-circle" alt="avatar">
-                <h3 class="font-weight-bold mt-4 mb-3">Kevson Filipe</h3>
+                <a href="kevsonfilipe.html"><img src="../img/img_avatar/kevson.png" class="rounded-circle" alt="avatar"></a>
+                <h3 class="font-weight-bold mt-4 mb-3">Kevson Santos</h3>
                 <p class="font-weight-bold">Programador junior or, sit amet consectetur adipisicing elit. A optio debitis non perferendis aspernatur amet, sapiente in, explicabo omnis voluptatem quasi impedit nulla, tempora sunt voluptate distinctio eum ea maxime.</p>
 
             </div>
@@ -101,9 +101,9 @@
     <script src="/js/animMenu.js"></script>
 
 
-    
+
     <footer id="footer" class="footer-1">
-        
+
         <div class="main-footer widgets-dark typo-light">
             <div class="container">
                 <div class="row">
@@ -191,16 +191,17 @@
                                         audio.play();
                                         audio.pause();
                                         audio.volume = 0.25;
-                                        
+
                                         var slider = document.getElementById("volbar");
-                                        
-                                        audio.volume = (slider.value/100);
-                                        
+
+                                        audio.volume = (slider.value / 100);
+
                                         slider.oninput = function() {
-                                            audio.volume = (this.value/100);
+                                            audio.volume = (this.value / 100);
                                         }
+
                                         function playOrPauseSong() {
-                                            
+
                                             if (audio.paused) {
                                                 audio.play();
                                                 $("#play img").attr("src", "../img/Pause.png");
@@ -227,7 +228,8 @@
                     </div>
                 </div>
             </div>
-    </div></footer>
+        </div>
+    </footer>
 
 </body>
 
