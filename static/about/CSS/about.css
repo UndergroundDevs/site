@@ -43,9 +43,11 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
-
-header.masthead {
-    background-image: url('/img/space.gif');
+.team-section{
+    background-image: url('/img/space_otimized.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: inline-start;
 }
 
 #slogan {
@@ -303,6 +305,13 @@ div.row {
 @media only screen and (max-device-width: 770px) {
     body{
         overflow-y: scroll;
+    }
+
+    .team-section{
+        background-image: url('/img/space_otimized.gif');
+        background-repeat: repeat-y;
+        background-size: 100%;
+        float: inline-start;
     }
 
     #team .profile {
