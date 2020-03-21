@@ -41,7 +41,6 @@
 
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 .team-section{
     background-image: url('/img/space_otimized.gif');
