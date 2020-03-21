@@ -41,7 +41,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="about/">SOBRE</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">BLOG</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="blog/">BLOG</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">SERVIÇOS</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">CONTATO</a></li>
                 </ul>
@@ -219,16 +219,17 @@
                                         audio.play();
                                         audio.pause();
                                         audio.volume = 0.25;
-                                        
+
                                         var slider = document.getElementById("volbar");
-                                        
-                                        audio.volume = (slider.value/100);
-                                        
+
+                                        audio.volume = (slider.value / 100);
+
                                         slider.oninput = function() {
-                                            audio.volume = (this.value/100);
+                                            audio.volume = (this.value / 100);
                                         }
+
                                         function playOrPauseSong() {
-                                            
+
                                             if (audio.paused) {
                                                 audio.play();
                                                 $("#play img").attr("src", "img/Pause.png");
