@@ -44,7 +44,7 @@
 }
 
 header.masthead {
-    background-image: url('/img/space.gif');
+    background-image: url('/img/space_otimized.gif');
 }
 
 #slogan {
@@ -166,4 +166,21 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
 
+}
+
+p.text-faded{
+    font-size: 1.25rem !important;
+}
+
+/*MOBILE SCREEN*/
+@media only screen and (max-device-width: 770px) {
+    p.text-faded{
+        font-size: 1rem !important;
+    }
+    h2.section-heading{
+        font-size: 1.8rem;
+    }
+    p.text-about{
+        font-size: 0.9rem !important;
+    }
 }
