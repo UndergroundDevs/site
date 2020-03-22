@@ -45,6 +45,8 @@
 
 header.masthead {
     background-image: url('/img/space_otimized.gif');
+    padding-top: 7.5rem;
+    padding-bottom: 5rem;
 }
 
 #slogan {
@@ -58,7 +60,13 @@ strong {
 
 h1.text-uppercase {
     font-family: 'FunSized';
-    font-size: 30px;
+    font-size: 3rem !important;
+}
+
+p.text-faded{
+    font-size: 1.2rem !important;
+    margin-top: 0em !important;
+    margin-bottom: 1.2em !important;
 }
 
 @media screen and (min-width: 700px) {
@@ -166,10 +174,6 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
 
-}
-
-p.text-faded{
-    font-size: 1.25rem !important;
 }
 
 p.joke{
