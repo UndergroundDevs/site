@@ -271,6 +271,7 @@ div.row {
 #team {
     width: 97%;
     top: 8rem;
+    margin-top: 2rem;
     bottom: 0px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -281,10 +282,10 @@ div.row {
     float: left;
     width: 20%;
     height: auto;
-    background-color: #000000;
-    border-top: #000000 solid 1rem;
-    border-bottom: #000000 solid 1rem;
-    margin-bottom: 3rem;
+    background-color:rgba(0, 0, 0, 0);
+    border-top: 1rem;
+    border-bottom: 1rem;
+    margin-bottom: 2rem;
     text-decoration: none;
 }
 
@@ -293,10 +294,10 @@ div.row {
 }
 
 #team img{
-    width: 11rem;
+    width: 9rem;
 }
 #team img:hover{
-    width: 11rem;
+    width: 9rem;
     transform: scale(1.2);
 }
 
