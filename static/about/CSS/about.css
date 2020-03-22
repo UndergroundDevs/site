@@ -281,10 +281,8 @@ div.row {
     float: left;
     width: 20%;
     height: auto;
-    background-color: #000000;
-    border-top: #000000 solid 1rem;
-    border-bottom: #000000 solid 1rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
     text-decoration: none;
 }
 
