@@ -181,6 +181,18 @@ p.joke{
     color: rgb(144, 107, 245);
 }
 
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus{
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(121, 93, 196,0.8);
+    
+}
+
 /*MOBILE SCREEN*/
 @media only screen and (max-device-width: 770px) {
     header.masthead {
