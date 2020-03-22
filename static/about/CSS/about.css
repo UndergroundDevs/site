@@ -271,6 +271,7 @@ div.row {
 #team {
     width: 97%;
     top: 8rem;
+    margin-top: 2rem;
     bottom: 0px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -291,10 +292,10 @@ div.row {
 }
 
 #team img{
-    width: 11rem;
+    width: 9rem;
 }
 #team img:hover{
-    width: 11rem;
+    width: 9rem;
     transform: scale(1.2);
 }
 
