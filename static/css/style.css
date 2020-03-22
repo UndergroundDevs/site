@@ -172,15 +172,34 @@ p.text-faded{
     font-size: 1.25rem !important;
 }
 
+p.joke{
+    font-family: monospace;
+    color: rgb(144, 107, 245);
+}
+
 /*MOBILE SCREEN*/
 @media only screen and (max-device-width: 770px) {
+    header.masthead {
+        background-image: url('/img/space_otimized.gif');
+        padding-top: 8rem;
+    }
     p.text-faded{
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
+        margin-top: 0em !important;
+        margin-bottom: 0.9em !important;
+    }
+    p.end{
+        font-size: 0.9rem !important;
+        margin-top: 0em !important;
+        margin-bottom: 2.4rem !important;
     }
     h2.section-heading{
         font-size: 1.8rem;
     }
     p.text-about{
         font-size: 0.9rem !important;
+    }
+    h1.text-uppercase{
+        font-size: 2rem !important;
     }
 }
