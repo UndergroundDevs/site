@@ -366,7 +366,10 @@ section{
     #team img:hover{
         width: 8rem;
     }
-
+    #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus{
+        border-top: 5px solid rgba(121, 93, 196,0.8);
+        background-color: rgba(121, 93, 196,0.8);
+    }
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus{
@@ -377,8 +380,9 @@ section{
     text-shadow: 1px 1px rgb(0, 0, 0);
     font-weight: bolder;
     text-align: center;
-    background-color: rgba(121, 93, 196,0.8);
-    
+}
+div.navbar-collapse.collapse.show{
+    border-bottom: 5px solid rgba(121, 93, 196,1);
 }
 
 /*============================
