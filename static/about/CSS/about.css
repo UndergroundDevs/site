@@ -386,6 +386,18 @@ div.navbar-collapse.collapse.show{
 }
 
 /*============================
+         Sobre perfil
+  ============================*/
+div#white-div{
+    --largura: 90%;
+    width: var(--largura);
+    height: auto;
+    margin-right: calc((100% - var(--largura))/2);
+    margin-left: calc((100% - var(--largura))/2);
+    background-color: #ffffff;
+}
+
+/*============================
          Social Medias
   ============================*/
   
