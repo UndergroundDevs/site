@@ -415,6 +415,22 @@ div#white-div p{
     margin-left: calc(var(--borda)/2);
     margin-right: calc(var(--borda)/2);
 }
+div#white-div div#text{
+    width: 12rem;
+}
+div#white-div #hide:hover{
+    opacity: 0;
+}
+div#white-div div.profile img{
+    position: absolute;
+    right: calc(var(--borda)*7);
+    transition: 1s;
+    width: 20%;
+    top: 16rem;
+}
+div#white-div div.profile{
+    text-align: right;
+}
 
 /*============================
          Social Medias
