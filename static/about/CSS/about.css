@@ -417,6 +417,9 @@ div#white-div p{
 }
 div#white-div div#texto{
     width: 80%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 div#white-div div.profile{
     width: 20%;
@@ -430,15 +433,28 @@ div#white-div div.profile img{
     width: 100%;
     top: 0rem;
 }
+/*USO PARA PERFIL DO WANGHLEY*/
+div#white-div div.profile img.wanghley{
+    right: 0;
+    transition: 1s;
+    /*width: 100%;*/
+    top: 0rem;
+}
+div#white-div div.profile img.wanghley-original{
+    right: 0;
+    transition: 1s;
+    width: 100%;
+    height: 101.9%;
+    top: 0rem;
+}
+/********************************/
+
 @media only screen and (max-device-width: 770px) {
-    div#white-div div#texto{
-        margin-top: 1rem;
-        width: 100%;
-    }
-    div#white-div div#texto p{
-        font-size: 1.5rem;
-    }
     div#white-div div.profile{
+        width: 100%;
+        margin: 1rem;
+    }
+    div#white-div div#texto{
         width: 100%;
     }
 }
