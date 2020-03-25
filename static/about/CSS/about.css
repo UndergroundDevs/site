@@ -430,7 +430,18 @@ div#white-div div.profile img{
     width: 100%;
     top: 0rem;
 }
-
+@media only screen and (max-device-width: 770px) {
+    div#white-div div#texto{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    div#white-div div#texto p{
+        font-size: 1.5rem;
+    }
+    div#white-div div.profile{
+        width: 100%;
+    }
+}
 /*============================
          Social Medias
   ============================*/
