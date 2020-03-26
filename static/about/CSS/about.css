@@ -387,6 +387,7 @@ div.navbar-collapse.collapse.show{
 div#team div.profile img {
     box-shadow: 0 1.5rem 1rem -0.9rem rgb(90, 90, 90);
     transition: 1s;
+    transition: all 1s, border-radius 0s;
 }
 div#team div.profile img:hover {
     box-shadow: 0 1.5rem 2rem -0.9rem rgb(90, 90, 90);
