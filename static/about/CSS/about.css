@@ -384,6 +384,13 @@ section{
 div.navbar-collapse.collapse.show{
     border-bottom: 5px solid rgba(121, 93, 196,1);
 }
+div#team div.profile img {
+    box-shadow: 0 1.5rem 1rem -0.9rem rgb(90, 90, 90);
+    transition: 1s;
+}
+div#team div.profile img:hover {
+    box-shadow: 0 1.5rem 2rem -0.9rem rgb(90, 90, 90);
+}
 
 /*============================
          Sobre perfil
