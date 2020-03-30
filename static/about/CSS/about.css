@@ -41,12 +41,13 @@
 
 body{
     overflow-x: hidden;
-}
-.team-section{
     background-image: url('/img/space_otimized.gif');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     float: inline-start;
+}
+.team-section{
+    
 }
 
 #slogan {
@@ -385,12 +386,12 @@ div.navbar-collapse.collapse.show{
     border-bottom: 5px solid rgba(121, 93, 196,1);
 }
 div#team div.profile img {
-    box-shadow: 0 1.5rem 1rem -0.9rem rgb(90, 90, 90);
+    box-shadow: 0 0rem 2.5rem 0.3rem rgb(90, 90, 90);
     transition: 1s;
     transition: all 1s, border-radius 0s;
 }
 div#team div.profile img:hover {
-    box-shadow: 0 1.5rem 2rem -0.9rem rgb(90, 90, 90);
+    box-shadow: 0 0rem 3.5rem -0.3rem rgb(90, 90, 90);
 }
 
 /*============================
