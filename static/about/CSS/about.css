@@ -447,6 +447,23 @@ div#white-div div.profile img{
     margin-top: auto;
     margin-bottom: auto;
 }
+/*Redes sociais perfil*/
+div.text-center.redes-sociais-profiles {
+    --margem: 40%;
+    margin: 1rem var(--margem);
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.text-center.redes-sociais-profiles a {
+    background-color: rgb(94, 68, 165);
+    color: #ffffff;
+}
+div.text-center.redes-sociais-profiles a:hover {
+    background-color: #000000;
+}
+
 /*USO PARA PERFIL DO WANGHLEY*/
 div#white-div div.profile img.wanghley{
     transition: 1s;
