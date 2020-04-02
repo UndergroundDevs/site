@@ -449,7 +449,7 @@ div#white-div div.profile img{
 }
 /*Redes sociais perfil*/
 div.text-center.redes-sociais-profiles {
-    --margem: 40%;
+    --margem: 41%;
     margin: 1rem var(--margem);
 
     width: 100%;
