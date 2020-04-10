@@ -42,12 +42,11 @@
 body{
     overflow-x: hidden;
     background-image: url('/img/space_otimized.gif');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    height: auto!important;
     float: inline-start;
-}
-.team-section{
-    
 }
 
 #slogan {
