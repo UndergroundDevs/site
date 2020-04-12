@@ -30,6 +30,18 @@ app.get('/about/pablo-miranda', function(req, res) {
 app.get('/about/wanghley-martins', function(req, res) {
     res.sendFile(__dirname + '/static/about/wanghleymartins.html')
 });
+/*==============================
+            SERVICES
+  ==============================*/
+  app.get('/services',function (req,res){
+    res.sendFile(__dirname+'/static/services/index.html')
+});
+/*==============================
+            CONTACT
+  ==============================*/
+  app.get('/contact',function (req,res){
+    res.sendFile(__dirname+'/static/contact/index.html')
+});
 
 /*==============================
             ERRORS
