@@ -3,14 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #353535;
+    /*background: #353535;*/
     font: 3rem;
-    color: #fff;box-shadow: rba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) opx 0.075rem 0.175rem;
+    /*color: #fff;box-shadow: rba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) opx 0.075rem 0.175rem;*/
     height: 100%;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 20px;
     transition: all 500ms;
     overflow: hidden;
+    background-color: rgba(175, 97, 203, 1);
 
     background-size: cover;
     background-position: center;
@@ -28,5 +29,17 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    padding: 0 20px;
+    padding: 10px 50px;
+}
+
+.basic-grid .card .imagem {
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 0px;
+}
+
+h5 {
+    color: black;
 }
