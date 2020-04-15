@@ -1,33 +1,37 @@
-.card-deck {
+.masthead .card-deck {
     width: 100%;
     padding: 0px 20px;
 }
 
-.card {
+.masthead .card {
     border-radius: 20px;
     transition: all 500ms;
     border-color: rgba(175, 97, 203, 1);;
 }
 
-.card:hover {    
+.masthead .card:hover {    
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
     transform: translateY(-3px) scale(1.1);
 }
 
 
-.card-img-top {
+.masthead .card-img-top {
   border-radius: 20px 20px 0px 0px;
 }
 
-.card-body {   
+.masthead .card-body {   
     background-color: rgba(175, 97, 203, 1);
     border-radius: 0px 0px 20px 20px;
 }
 
-.card-deck .card .card-body h5 {
+.masthead .card-deck .card .card-body h5 {
   color: black;
 }
 
-.card-deck .card .card-body p {
+.masthead .card-deck .card .card-body p {
   text-align: justify;
+}
+
+#wearefoda {
+  height: 1000px;
 }
