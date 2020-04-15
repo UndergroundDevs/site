@@ -6,6 +6,7 @@
 .card {
     border-radius: 20px;
     transition: all 500ms;
+    border-color: rgba(175, 97, 203, 1);;
 }
 
 .card:hover {    
@@ -13,11 +14,20 @@
     transform: translateY(-3px) scale(1.1);
 }
 
+
+.card-img-top {
+  border-radius: 20px 20px 0px 0px;
+}
+
 .card-body {   
     background-color: rgba(175, 97, 203, 1);
     border-radius: 0px 0px 20px 20px;
 }
 
-.card-img-top {
-    border-radius: 20px 20px 0px 0px;
+.card-deck .card .card-body h5 {
+  color: black;
+}
+
+.card-deck .card .card-body p {
+  text-align: justify;
 }
