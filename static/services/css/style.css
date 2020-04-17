@@ -32,44 +32,43 @@
   text-align: justify;
 }
 
-#wearefoda {
-  height: 3000px;
+body {
+  width: 100%;
+  height: 100%;
 }
 
-#wearefoda .card-port {
+#wearefoda {
+  
+}
+
+#wearefoda .card {
   width: 100%;
   height: 100%;
   border-radius: 20px;
   transition: all 500ms;
 }
 
-#wearefoda .card-port:hover {
+#wearefoda .card:hover {
   box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
   transform: translateY(-3px) scale(1.1);
 }
 
 #wearefoda .card-deck {
+  width: 100%;
   padding: 10px 8%;
 }
 
-.cartao-body {
-  height: 20rem;
+#wearefoda img {
+  padding: 010px;
+  border-radius: 20px;
 }
 
 .gol {
   height: 55px;
-  border-radius: 20px;
+  border-radius: 20px 20px;
   background-color: yellow;
 }
 
-.card-deck .card-img {
-  padding: 10px;
-}
-
-#wearefoda .card-deck .rocket{
-  padding: 10px;
-  padding-top: 40px;
-}
 
 #wearefoda .card-deck .statusDev {
   padding-left: 20px;
