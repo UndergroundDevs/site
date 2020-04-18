@@ -136,21 +136,43 @@
     
     <!--==========================================CANDIDATE-SE=======================================================-->
     
-    <section class="register bg-dark text-white">
+    <section id="register" class="bg-dark text-white">
         <div class="container text-center">
             <h2 class="mb-4">Venha ser Underground também!</h2>
             <button type="button" class="btn btn-light btn-xl sr-button" data-toggle="modal" data-target="#exampleModalCenter">candidate-se!</button>
             <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" arial-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-dialog" role="document">
                     <div class="modal-content">
-                        <div class="modal-header"></div>
+                        <div class="modal-body">
+                            <h1 class="modal-title" id="staticBackdropLabel">candidate-se</h1>
+                            <form method="POST">
+                                    <input type="email" name="email-entrar" id="email" class="input-form" placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()" required>
+                                    <span id="error-email"></span>
+                                    <input type="submit" value="Cadastrar">
+                            </form>
+                        </div>
                     </div>
-                </div>
-                
+                </div>              
             </div>
         </div>        
     </section>
+    <script>
+        function validarEmail() {
+            var email = document.querySelector('#email');
+            var error = document.querySelector('#error-email');
+            if(!email.checkValidity()) {
+                error.innerHTML = 'Email invalido';
+            }
+        }
 
+        function redefinirMsg() {
+            var error = document.querySelector('#error-email');
+            if(error.innerHTML == "Email invalido") {
+                error.innerHTML = "";
+            }
+        }
+
+    </script>
     <!--======================================FIM CANDIDATE-SE=======================================================-->
 
     <script src="/js/jquery.min.js"></script>
