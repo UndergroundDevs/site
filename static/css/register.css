@@ -1,3 +1,9 @@
-.modal-header {
-    background-color: red;
+.register .btn{
+    color: black;
+    background-color: white;
+}
+
+.register .btn:hover {
+    color: white;
+    background-color: black;
 }
