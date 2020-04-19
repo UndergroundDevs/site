@@ -44,6 +44,13 @@ app.get('/about/wanghley-martins', function(req, res) {
 });
 
 /*==============================
+            Projects
+  ==============================*/
+  app.get('/projects',function (req,res){
+    res.sendFile(__dirname+'/static/projects/index.html')
+  });
+
+/*==============================
             ERRORS
   ==============================*/
 
@@ -65,6 +72,7 @@ app.get('/about/about.css',function (req,res){
     res.sendFile(__dirname+'/static/about/CSS/about.css')
 });
 app.use('/services/css', express.static(__dirname + '/static/services/css'));
+app.use('/projects/css', express.static(__dirname + '/static/projects/css'));
 app.use('/contact/css', express.static(__dirname + '/static/contact/css'));
 
 app.use((req, res, next) => {
