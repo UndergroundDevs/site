@@ -1,0 +1,9 @@
+#register .ola {
+    background-color: blue;
+    padding-right: 0110px;
+    border-color: 2px 2px 2px white;
+}
+
+#register .input-form:hover{
+    border-color: black;
+}

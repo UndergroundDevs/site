@@ -1,3 +1,4 @@
+/*=================================BOTÃO DE  CANDIDATE-SE==============================================*/
 #register .btn{
     color: black;
     background-color: white;
@@ -7,7 +8,9 @@
     color: white;
     background-color: black;
 }
+/*==================================FIME DE BOTÃO CANDIDATE-SE==========================================*/
 
+/*===========================================MODAL=======================================================*/
 #register .modal-content {
     width: 667px;
     height: 353px;
@@ -19,11 +22,12 @@
     height: 353px;
     background-image: url('/img/imf.jpg');
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     color: white;
     border-radius: 20px;
 }
+/*===========================================MODAL=======================================================*/
+
 
 #register .modal-body .modal-title {
     color: white;
@@ -33,28 +37,40 @@
     color: white;
     transition: all 200ms;
 }
-#register .input-form{
-    border: 1px solid black;
-    color: white;
-    transition: all 200ms;
+
+/*===========================================FORM=======================================================*/
+
+#register .ola {
+    padding-right: 400px;
     border-radius: 20px;
 }
 
-.needs-validation {
-    width: 100%;
-    padding-left: 198px;  
+#register  .imput-1 .input-form{
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    transition: all 200ms;
 }
 
 #register #email {
+    padding-left: 10px;
+    border-radius: 20px;
     width: 250px;
+    height: 2rem;
     background-color: rgba(77, 77, 77, 0.582);
     transition: all 500ms;
 }
 
-
 #register #email:hover {
     background-color: rgba(54, 49, 49, 0.1);
     transition: all 500ms;
+    width: 250px;
+    height: 2rem;
+}
+
+#register .input-form {
+    border-color: black;
 }
 
 #register .input-form:hover{
@@ -67,18 +83,18 @@
 #register .input-form::placeholder {
     opacity: 1;
     font-family: sans-serif;
-    color: black;
+    color: rgba(0, 0, 0, 0.5);
     transition: all 200ms;
     font-size: 15pt;
     padding-left: 5px;
 }
 
 #register .input-form:hover::placeholder {
-    padding-left: 95px;
+    padding-left: 80px;
+    color: rgba(0, 0, 0, 0.2);
 }
 
 #register input:invalid {
-    border-color: crimson;
     box-shadow: 0px 0px 0px crimson;
 }
 
@@ -93,3 +109,5 @@
 #register span {
     color: crimson;
 }
+
+/*===========================================FIM DO FORM=======================================================*/
