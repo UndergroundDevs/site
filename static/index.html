@@ -21,7 +21,7 @@
 
     <title>Undergrounds</title>
 
-    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="/css/registro.css">
     <link rel="stylesheet " href="/bootstrap/css/bootstrap.min.css">
     <!--nuvem-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800 ">
@@ -148,15 +148,51 @@
                     <div class="modal-content">
                         <div class="modal-body">
                             <h1 class="modal-title" id="staticBackdropLabel">candidate-se</h1>
-                            <form method="POST" class="ola">
-                                <div class="input-1">
-                                    <input type="email" name="email-entrar" id="email" class="input-form" placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()" required>
+                            <form method="POST" class="form_style">
+                                <div class="texto">
+                                    <p class="text_paragrafo">Descreva um texto com no minimo 1000 palavras sobre o porque ele você deveria se um Underground DEVs</p>
+                                    <input type="text" name="texto" id="texto" class="input_style" placeholder="Texto" required>
+                                </div>
+                                <div class="name">
+                                    <input type="text" id="name" class="input_style" placeholder="Nome" required>
+                                </div>
+                                <div class="email">
+                                    <input type="email" id="email" class="input_style" placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
                                     <span id="error-email"></span>
                                 </div>
-                                <div class="input-2">
-                                    
+                                <div class="git">
+                                    <input type="text" id="git" class="input_style" placeholder="github" required>
+                                </div>
+                                <div class="idade">
+                                    <input type="text" placeholder="Idade" required>
+                                </div>
+                                <div class="genero">
+                                    <input type="text" placeholder="Genero" required>
                                 </div>
                             </form>
+                            <!--<form method="POST" class="ola">
+                                <div class="input_nome">
+                                    <input type="text" name="name" id="name" class="input-form" placeholder="Nome" required>
+                                </div>
+                                <div class="input_email">
+                                    <input type="email" name="email-entrar" id="email" class="input-form" placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()" required>
+                                    <div id="error">
+                                        <span id="error-email"></span>
+                                    </div>
+                                </div>
+                                <div class="teste">
+                                    
+                                </div>
+                                <div class="input_genero">
+                                    <p class="title-genero">Gênero</p>
+                                    <input type="checkbox" id="genero-feminino" name="genero-feminino" value="feminino">
+                                    <label for="genero-feminino">Feminino</label><br>
+                                    <input type="checkbox" id="genero-masculino" name="genero-masculino" value="masculino">
+                                    <label for="genero-masculino">Masculino</label><br>
+                                    <input type="checkbox" id="genero-outro" name="genero" value="outro">
+                                    <label for="genero-outro">Outro</label><br>
+                                </div>
+                            </form>-->
                         </div>
                     </div>
                 </div>              

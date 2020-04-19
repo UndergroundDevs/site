@@ -1,4 +1,4 @@
-/*=================================BOTÃO DE  CANDIDATE-SE==============================================*/
+/*====================BOTÃO DE  CANDIDATE-SE================================*/
 #register .btn{
     color: black;
     background-color: white;
@@ -8,9 +8,9 @@
     color: white;
     background-color: black;
 }
-/*==================================FIME DE BOTÃO CANDIDATE-SE==========================================*/
+/*==================FIME DE BOTÃO CANDIDATE-SE=============================*/
 
-/*===========================================MODAL=======================================================*/
+/*=============================MODAL======================================*/
 #register .modal-content {
     width: 120%;
     height: 25rem;
@@ -26,7 +26,7 @@
     color: white;
     border-radius: 20px;
 }
-/*===========================================MODAL=======================================================*/
+/*==============================MODAL===================================*/
 
 
 #register .modal-body .modal-title {
@@ -38,8 +38,7 @@
     transition: all 200ms;
 }
 
-/*===========================================FORM=======================================================*/
-
+/*=================================FORM==================================*/
 #register .ola {
     height: 100px;
     padding-right: 400px;
@@ -52,25 +51,6 @@
     border-radius: 20px;
     width: 300px;
     transition: all 200ms;
-}
-
-#register #email {
-    padding-left: 10px;
-    border-radius: 20px;
-    width: 250px;
-    height: 2rem;
-    background-color: rgba(77, 77, 77, 0.582);
-    transition: all 500ms;
-}
-
-#register #email:hover {
-    background-color: rgba(54, 49, 49, 0.1);
-    transition: all 500ms;
-    width: 250px;
-    height: 2rem;
-}
-
-#register .input-form {
     border-color: black;
 }
 
@@ -94,7 +74,74 @@
     padding-left: 80px;
     color: rgba(0, 0, 0, 0.2);
 }
+
+/*==================================FIM DO FORM============================*/
+
+/*====================INPUT NAME================================*/
+
+#register #name {
+    padding-left: 10px;
+    border-radius: 20px;
+    width: 250px;
+    height: 2rem;
+    background-color: rgba(77, 77, 77, 0.582);
+    transition: all 500ms;
+}
+
+#register #name:hover {
+    background-color: rgba(54, 49, 49, 0.1);
+    transition: all 500ms;
+    width: 250px;
+    height: 2rem;
+}
+/*==================FIM INPUT NAME==============================*/
+
+/*==================INPUT EMAIL=================================*/
+#register .input_email {
+    padding-top: 1.5rem;
+}
+#register #email {
+    padding-left: 10px;
+    border-radius: 20px;
+    width: 250px;
+    height: 2rem;
+    background-color: rgba(77, 77, 77, 0.582);
+    transition: all 500ms;
+}
+
+#register #email:hover {
+    background-color: rgba(54, 49, 49, 0.1);
+    transition: all 500ms;
+    width: 250px;
+    height: 2rem;
+}
+/*====================FIM INPUT EMAIL==============================*/
+
+/*==================INPUT GENERO=====================================*/
+#register .ola .input_genero {
+    padding-top: 0rem;
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    width: 250px;
+    transition: all 200ms;
+    border-color: black;
+}
+
+#register .teste {
+    width: 100px;
+    height: 1rem;
+    background-color: blue;
+}
+/*=================FIMINPUT GENERO===================================*/
+
+
+
 /*==================ESTILIZAÇÃO DE VAÇÃOLIDA================================*/
+#register #error {
+    height: 1.5rem;
+}
+
 #register input:invalid {
     box-shadow: 0px 0px 0px crimson;
 }
@@ -111,5 +158,3 @@
     transition: all 300ms;
     color: crimson;
 }
-
-/*===========================================FIM DO FORM=======================================================*/
