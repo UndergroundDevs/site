@@ -11,10 +11,15 @@
 /*==================FIME DE BOTÃO CANDIDATE-SE=============================*/
 
 /*=============================MODAL======================================*/
+#register .modal-dialog {
+    margin-left: 18rem;
+}
+
 #register .modal-content {
     width: 50rem;
     height: 25rem;
     border-radius: 20px;
+    margin-left: 0px;
 }
 
 #register .modal-body {
@@ -25,11 +30,13 @@
     background-size: cover;
     color: white;
     border-radius: 20px;
+    margin-left: 0px;
 }
 /*==============================MODAL===================================*/
 
 
 #register .modal-body .modal-title {
+    margin-top: -1.5rem;
     color: white;
 }
 
@@ -46,8 +53,9 @@
     border-radius: 20px;
     border: 1px solid black;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(26, 24, 24, 0.4);
     transition: all 200ms;
+    padding-left: 1rem;
 }
 
 
