@@ -8,11 +8,6 @@ var app = express();
 app.get('/',function (req,res){
     res.sendFile(__dirname+'/static/index.html')
 });
-/*==============================
-            TERMS
-  ==============================*/
-  app.get('/terms',function (req,res){
-    res.sendFile(__dirname+'/static/terms.html')
 
 /*==============================
             ABOUT
@@ -63,6 +58,9 @@ app.get('/error/404',function (req,res){
     res.sendFile(__dirname+'/static/error/404.html')
 });
 
+app.get('/terms',function (req,res){
+  res.sendFile(__dirname+'/static/terms.html')
+});
 
 /*==============================
           Static Files
@@ -93,7 +91,11 @@ app.use((req, res, next) => {
         },
       });
     });
-  });
+
 app.listen(process.env.PORT || 5000,function(){
     console.log('Running done!')
 });
+
+/*app.get('*', function(req, res){
+    res.status(404).redirect('/error/404')
+  });*/
