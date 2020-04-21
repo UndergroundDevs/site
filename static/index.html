@@ -147,11 +147,44 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                             <h1 class="modal-title" id="staticBackdropLabel">candidate-se</h1>
-                            <form method="POST" class="form_style">
+                            <form>               
+                                <div class="form-group container" style="height: 35rem;" style="margin: -16px;" style="padding: -15px;">
+                                    <div class="container_input form-group" style="padding-right: 1rem;">
+                                        <input type="text" class="input_style form-control" id="formGroupExampleInput" placeholder="Nome">
+                                        <div class="div_data" style="margin-top: 1.5rem;">
+                                            <label for="" style="margin-right: 1.7rem;">Data de Nascimento</label>
+                                            <input type="date" class="input_data form-control" id="formGroupExampleInput" placeholder="Data de nascimento" style="margin-top: 0rem;">
+                                        </div>
+
+                                        <div id="input-radio" class="input-radio">
+                                            <label for="label-genero">Gênero</label>
+                                            <div class="radio1 form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="genero_feminino" value="feminino">
+                                                <label class="form-check-label" for="genero_feminino">Feminino</label>
+                                            </div>
+                                            <div class="radio2 form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="genero_masculino" value="masculino">
+                                                <label class="form-check-label" for="genero_masculino">Masculino</label>
+                                            </div>
+                                            <div class="radio3 form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="genero_outro" value="Outro">
+                                                <label class="form-check-label" for="genero_outro">Outro</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="input_style form-control" id="formGroupExampleInput" placeholder="Email" style="margin-top: 1.5rem;">
+                                    <input type="text" class="input_style form-control" id="formGroupExampleInput" placeholder="GitHub" style="margin-top: 1.5rem;">
+                                    <input type="text" class="input_texto_style form-control container" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                                </div>
+                            </form>
+                            <!--<form method="POST" class="form_style">
                                 <div class="texto">
                                     <p class="text_paragrafo">Descreva um texto com no minimo 1000 palavras sobre o porque ele você deveria se um Underground DEVs</p>
-                                    <input type="text" name="texto" id="texto" class="" placeholder="Texto" required>
+                                    <input type="text" name="texto" id="texto" class="card-deck" placeholder="Texto" required>
                                 </div>
                                 <div class="name">
                                     <input type="text" id="name" class="input_style" placeholder="Nome" required>
@@ -168,31 +201,8 @@
                                 </div>
                                 <div class="genero">
                                     <input type="text" placeholder="Genero" required>
-                                </div>
+                                </div>-->
                             </form>
-                            <!--<form method="POST" class="ola">
-                                <div class="input_nome">
-                                    <input type="text" name="name" id="name" class="input-form" placeholder="Nome" required>
-                                </div>
-                                <div class="input_email">
-                                    <input type="email" name="email-entrar" id="email" class="input-form" placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()" required>
-                                    <div id="error">
-                                        <span id="error-email"></span>
-                                    </div>
-                                </div>
-                                <div class="teste">
-                                    
-                                </div>
-                                <div class="input_genero">
-                                    <p class="title-genero">Gênero</p>
-                                    <input type="checkbox" id="genero-feminino" name="genero-feminino" value="feminino">
-                                    <label for="genero-feminino">Feminino</label><br>
-                                    <input type="checkbox" id="genero-masculino" name="genero-masculino" value="masculino">
-                                    <label for="genero-masculino">Masculino</label><br>
-                                    <input type="checkbox" id="genero-outro" name="genero" value="outro">
-                                    <label for="genero-outro">Outro</label><br>
-                                </div>
-                            </form>-->
                         </div>
                     </div>
                 </div>              

@@ -58,7 +58,6 @@
     background-color: rgba(26, 24, 24, 0);
     border: 1px solid white;
 }
-
 #register .input-form:focus{
     color: white;
 }

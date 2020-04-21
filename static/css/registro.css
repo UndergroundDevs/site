@@ -11,32 +11,27 @@
 /*==================FIME DE BOTÃO CANDIDATE-SE=============================*/
 
 /*=============================MODAL======================================*/
-#register .modal-dialog {
-    margin-left: 18rem;
-}
-
 #register .modal-content {
-    width: 50rem;
-    height: 25rem;
     border-radius: 20px;
-    margin-left: 0px;
+    margin-left: -9px;
+    width: 109%;
+    height: 42.688rem;
 }
 
 #register .modal-body {
-    width: 50rem;
-    height: 25rem;
+    width: 100%;
+    height: 1000px;
     background-image: url('/img/imf.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
     border-radius: 20px;
-    margin-left: 0px;
+    padding: -100px;
 }
 /*==============================MODAL===================================*/
 
 
 #register .modal-body .modal-title {
     margin-top: -1.5rem;
+    margin-left: 1.4rem;
     color: white;
 }
 
@@ -46,16 +41,25 @@
 }
 
 /*=============================FORM========================================*/
+#register div.container_input {
+    width: 280px;
+    float: left;
+}
+
+.form-group {
+    margin: -16px;
+    margin-top: 0px;
+}
+
 
 #register input.input_style {
-    width: 15.188rem;
+    width: 224px;
     height: 2rem;
     border-radius: 20px;
     border: 1px solid black;
     color: white;
     background-color: rgba(26, 24, 24, 0.4);
     transition: all 200ms;
-    padding-left: 1rem;
 }
 
 
@@ -79,82 +83,82 @@
 }
 
 /*=============================FORM TEXTO===========================================*/
-
-#register .texto {
-    width: 15.188rem;
-    height: 18rem;
-    background-color: blue;
-    float: right;
-    margin-right: 0rem;
+#register input.input_texto_style {
+    width: 14rem;
+    height: 9.3rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgba(26, 24, 24, 0.4);
+    padding-left: 1rem;
+    transition: all 200ms;
+    margin-left: -16px;
 }
 
-#register input#texto {
-    margin-top: 0rem;
-    width: 15.188rem;
-    height: 15rem;
+#register input.input_texto_style:hover {
+    background-color: rgba(26, 24, 24, 0);
+    border: 1px solid white;
 }
 
-#register p.text_paragrafo {
 
+#register input.input_texto_style::placeholder {
+    opacity: 1;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 200ms;
+    font-size: 15pt;
+    padding-left: 5px;
 }
+
+#register input.input_texto_style:hover::placeholder {
+    padding-left: 80px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
 /*=================================FIM FORM TEXTO=====================================*/
 
-/*=============================FORM NOME=========================================*/
-#register div.name {
-    margin-right: 100px;
-    width: 15.188rem;
+
+#register div.input-radio {
+    margin-top: 1.5rem;
+    width: 224px;
+    height: 7rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgba(26, 24, 24, 0.4);
+    transition: all 200ms;
+}
+
+.radio1 {
+    padding-right: 5.4rem;
+}
+.radio2 {
+    padding-right: 5rem;
+}
+
+.radio3 {
+    padding-right: 7.3rem;
+}
+
+div.div_data {
+    width: 224px;
+    height: 4.3rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    padding-left: 2px;
+    background-color: rgba(26, 24, 24, 0.4);
+    transition: all 200ms;
+}
+
+input.input_data {
+    width: 220px;
     height: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(26, 24, 24, 0);
+    color: white;
+    background-color: rgba(26, 24, 24, 0);
+    transition: all 200ms;
 }
-
-#register input#name {
-    width: 15.188rem;
-}
-/*=============================FIM FORM NOME=====================================*/
-
-/*============================FORM EMAIL=======================================*/
-#register div.email {
-    margin-top: 2rem;
-    width: 15.188rem;
-    height: 2rem;
-    margin-right: 200px;
-}
-
-#register input#email {
-    width: 15.188rem;
-}
-/*==================================FIM FORM EMAIL==================================*/
-
-/*==================================GIT===============================================*/
-#register div.git {
-    margin-top: 2rem;
-    margin-right: 100px;
-    width: 15.188rem;
-    height: 2rem;
-}
-
-#register input.git {
-    width: 15.188rem;
-}
-
-/*=================================FIM GIT=============================================*/
-
-
-/*===========================IDADE====================================================*/
-#register div.idade {
-    margin-right: 100px;
-    margin-top: 2rem;
-    width: 100px;
-    height: 50px;
-    background-color: blue;
-}
-/*================================FIM IDADE===========================================*/
-
-/*==================================GENERO===============================================*/
-#register div.genero{
-    margin-right: 100px;
-    margin-top: 2rem;
-    width: 100px;
-    height: 50px;
-    background-color: blue;
-}
-/*=================================FIM GENERO============================================*/
