@@ -93,11 +93,7 @@ app.use((req, res, next) => {
         },
       });
     });
-
+  });
 app.listen(process.env.PORT || 5000,function(){
     console.log('Running done!')
 });
-
-/*app.get('*', function(req, res){
-    res.status(404).redirect('/error/404')
-  });*/
