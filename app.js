@@ -8,6 +8,11 @@ var app = express();
 app.get('/',function (req,res){
     res.sendFile(__dirname+'/static/index.html')
 });
+/*==============================
+            TERMS
+  ==============================*/
+  app.get('/terms',function (req,res){
+    res.sendFile(__dirname+'/static/terms.html')
 
 /*==============================
             ABOUT
