@@ -5,3 +5,15 @@
 .space {
   width: 5.5rem;
 }
+
+.row {
+  margin: 10px;
+}
+
+.col {
+  margin: 5px;
+}
+
+.card-body {
+  background-color: #FFF;
+}
