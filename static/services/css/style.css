@@ -1,14 +1,20 @@
-.masthead .card-deck {
+.masthead .grupoC {
     width: 100%;
     padding: 0px 20px;
 }
 
-.masthead .card {
+.style {
+  background-color: blue;
+  margin: 10px;
+}
+
+.img-fluid {
+  background-size: 100%;
+}
+
+.masthead .cartao {
+  background-color:  indigo;
     border-radius: 20px;
-    transition: all 500ms;
-    box-shadow: 2px 2px 2px indigo;
-    border-spacing: 10px;
-    border-color: indigo;
 }
 
 .masthead .card:hover {    
