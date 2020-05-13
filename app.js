@@ -1,6 +1,8 @@
 //TESTE
 var express = require('express');
 var app = express();
+var nodemailer = require('nodemailer')
+
 
 /*==============================
             HOME
@@ -82,6 +84,15 @@ app.use((req, res, next) => {
     res.status(404).redirect('/error/404')
   });
   
+
+
+
+
+
+
+
+
+
   // error handler middleware
   app.use((error, req, res, next) => {
       res.status(error.status || 500).send({
