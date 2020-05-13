@@ -15,6 +15,19 @@ form .form-control::placeholder {
     color: black;
 }
 
+form .btn {
+    background-color: rgba( 0, 206, 209, 1);
+    width: 120px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+form .btn:hover {
+    background-color: rgba( 0, 206, 209, 1);
+    transform: translateY(-3px) scale(1.1);
+}
+
+
 #inputMessage {
     height: 150px;
 }
