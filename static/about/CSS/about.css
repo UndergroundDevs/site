@@ -39,6 +39,10 @@
     font-style: normal;
 }
 
+#mainNav {
+    background-color: rgb(121, 93, 196)!important;
+}
+
 body{
     overflow-x: hidden;
     /* background-image: url('/img/space_otimized.gif'); */
@@ -376,7 +380,6 @@ section{
     font-size: .9rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #ffffff !important;
     text-shadow: 1px 1px rgb(0, 0, 0);
     font-weight: bolder;
     text-align: center;
