@@ -41,7 +41,7 @@
 
 body{
     overflow-x: hidden;
-    background-image: url('/img/space_otimized.gif');
+    /* background-image: url('/img/space_otimized.gif'); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -335,7 +335,7 @@ section{
     }
 
     .team-section{
-        background-image: url('/img/space_otimized.gif');
+        /* background-image: url('/img/space_otimized.gif'); */
         float: inline-start;
     }
 
