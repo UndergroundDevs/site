@@ -63,6 +63,11 @@ h1.text-uppercase {
     font-size: 3rem !important;
 }
 
+h1.text-lowercase{
+    font-family: 'FunSized';
+    font-size: 2rem !important;
+}
+
 p.text-faded{
     font-size: 1.2rem !important;
     margin-top: 0em !important;
@@ -217,7 +222,7 @@ div.navbar-collapse.collapse.show{
         font-size: 0.9rem !important;
     }
     h1.text-uppercase{
-        font-size: 2rem !important;
+        font-size: 3rem !important;
     }
 
     #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus{
@@ -226,3 +231,13 @@ div.navbar-collapse.collapse.show{
     }
 }
 
+/*================= STYLE MODAL INSCRIÇÕES ====================*/
+
+.modal-body {
+    border-radius: 10px;
+}
+
+.modal-content {
+    border-radius: 10px;
+    background-color: rgba(240,248,255, 0.9);
+}
