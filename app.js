@@ -1,4 +1,5 @@
 //TESTE
+require('dotenv/config');
 var express = require('express');
 var app = express();
 var nodemailer = require('nodemailer')
@@ -62,6 +63,9 @@ app.get('/contact', function(req, res) {
     res.sendFile(__dirname + '/static/contact/index.html')
 });
 
+console.log(process.env.EMAIL_UNDERGROUND);
+console.log(process.env.PASSWORD_UNDERGROUND_CARACTERE)
+
 // HTTP POST
 app.post("/ajax/email", function(request, response) { // this will be used to send the emails
     const trasposter = nodemailer.createTransport({
@@ -69,8 +73,8 @@ app.post("/ajax/email", function(request, response) { // this will be used to se
         port: 465,
         secure: true,
         auth: {
-            user: "underdevs.community@gmail.com",
-            pass: "underground2020",
+            user: process.env.EMAIL_UNDERGROUND,
+            pass: process.env.PASSWORD_UNDERGROUND_CARACTERE,
         }
     });
 
@@ -153,9 +157,5 @@ app.use((error, req, res, next) => {
 
 
 app.listen(process.env.PORT || 5000, function() {
-    console.log('Running done!')
+    console.log('Running done in port 5000!')
 });
-
-/*app.get('*', function(req, res){
-    res.status(404).redirect('/error/404')
-  });*/
