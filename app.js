@@ -63,9 +63,6 @@ app.get('/contact', function(req, res) {
     res.sendFile(__dirname + '/static/contact/index.html')
 });
 
-console.log(process.env.EMAIL_UNDERGROUND);
-console.log(process.env.PASSWORD_UNDERGROUND_CARACTERE)
-
 // HTTP POST
 app.post("/ajax/email", function(request, response) { // this will be used to send the emails
     const trasposter = nodemailer.createTransport({
